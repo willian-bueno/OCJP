@@ -1,7 +1,7 @@
 package br.ocjp.escopoVariaveis;
 
 
-import br.ocjp.interfaceFuncional.Separador;
+import br.ocjp.interfaceFuncional.MyConsumer;
 
 public class Exemplos {
 
@@ -16,8 +16,8 @@ public class Exemplos {
 
     }
 
-    private static void separador(Separador separador, String titulo) {
-        separador.print(titulo);
+    private static void separador(MyConsumer consumer, String titulo) {
+        consumer.print(titulo);
     }
 
     /**
